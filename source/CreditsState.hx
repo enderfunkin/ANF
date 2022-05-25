@@ -85,7 +85,7 @@ class CreditsState extends MusicBeatState
 			['SMixels2',		'smixels2',		'Main Creator the mod, Artist/Animator',							'https://gamejolt.com/@SMixels2',	'444444'],
 			['Ender Funkin',			'ender',		'Main Coder',						'https://twitter.com/EnderFunkin',		'C30085'],
 			['GDNeoCat',				'neocat',			'Second Coder',					'https://youtube.com/channel/UC2q7Ji2QXuOViYpQMzcZdfg',			'279ADC'],
-			['SM2 GAY',			'kawaisprite',		"Composer of Friday Night Funkin'",							'https://twitter.com/kawaisprite',		'6475F3']
+			['SM2',			'kawaisprite',		"Composer of Friday Night Funkin'",							'https://twitter.com/kawaisprite',		'6475F3']
 		];
 		
 		for(i in pisspoop){
