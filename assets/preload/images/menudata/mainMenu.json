@@ -1,8 +1,8 @@
 {
-    "logoP": [350, 0],
-    "storymodeP": [150, 270],
-    "freeplayP": [470, 270],
-    "awardsP": [789, 270],
+    "logoP": [350, -20],
+    "storymodeP": [140, 250],
+    "freeplayP": [470, 250],
+    "awardsP": [809, 250],
     "settingsP": [0, 595],
     "creditsP": [1155, 595],
     "changelogP": [1155, 0],
