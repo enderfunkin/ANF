@@ -52,8 +52,8 @@ class ChangeLogState extends MusicBeatState
 		add(grpOptions);
 
 		var pisspoop:Array<Array<String>> = [
-			['Version 1.0.0'],
-			['Release!', 'ff9900']
+			['Version 2.0'],
+			['Full remastered', 'ff9900']
 		];
 		
 		for(i in pisspoop){
