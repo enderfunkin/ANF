@@ -1075,6 +1075,9 @@ class PlayState extends MusicBeatState
 		var filesPushed:Array<String> = [];
 		var foldersToCheck:Array<String> = [Paths.getPreloadPath('data/' + Paths.formatToSongPath(SONG.song) + '/')];
 
+		luaArray.push(new FunkinLua("assets/scripts/StartCredits.lua"));
+		filesPushed.push("assets/scripts/StartCredits.lua");
+
 		#if MODS_ALLOWED
 		foldersToCheck.insert(0, Paths.mods('data/' + Paths.formatToSongPath(SONG.song) + '/'));
 		if(Paths.currentModDirectory != null && Paths.currentModDirectory.length > 0)
