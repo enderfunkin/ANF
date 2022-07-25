@@ -1075,8 +1075,14 @@ class PlayState extends MusicBeatState
 		var filesPushed:Array<String> = [];
 		var foldersToCheck:Array<String> = [Paths.getPreloadPath('data/' + Paths.formatToSongPath(SONG.song) + '/')];
 
-		luaArray.push(new FunkinLua("assets/scripts/StartCredits.lua"));
-		filesPushed.push("assets/scripts/StartCredits.lua");
+		for (file in FileSystem.readDirectory("assets/scripts/songscripts"))
+		{
+			if(file.endsWith('.lua') && !filesPushed.contains(file))
+			{
+				luaArray.push(new FunkinLua("assets/scripts/songscripts/"+file));
+				filesPushed.push(file);
+			}
+		}
 
 		#if MODS_ALLOWED
 		foldersToCheck.insert(0, Paths.mods('data/' + Paths.formatToSongPath(SONG.song) + '/'));
