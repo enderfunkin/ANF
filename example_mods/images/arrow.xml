@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="arrow.png">
+<SubTexture name="arrow loop0000" x="0" y="0" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="arrow loop0001" x="500" y="0" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="arrow loop0002" x="0" y="500" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="arrow loop0003" x="500" y="500" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="arrow loop0004" x="1000" y="0" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="arrow loop0005" x="1000" y="500" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="arrow loop0006" x="0" y="1000" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="arrow loop0007" x="500" y="1000" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="arrow loop0008" x="1000" y="1000" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="arrow loop0009" x="1500" y="0" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="arrow loop0010" x="1500" y="500" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="arrow loop0011" x="1500" y="1000" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="arrow loop0012" x="0" y="1500" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="arrow loop0013" x="500" y="1500" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="arrow loop0014" x="1000" y="1500" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="arrow loop0015" x="1500" y="1500" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+</TextureAtlas>

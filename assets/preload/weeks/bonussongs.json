@@ -8,12 +8,21 @@
 				113,
 				253
 			]
+		],
+		[
+			"dilemma",
+			"bf",
+			[
+				146,
+				113,
+				253
+			]
 		]
 	],
 	"hiddenUntilUnlocked": false,
 	"hideFreeplay": false,
 	"weekBackground": "stage",
-	"difficulties": "Normal",
+	"difficulties": "Hard",
 	"weekCharacters": [
 		"",
 		"",
