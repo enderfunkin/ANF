@@ -22,7 +22,7 @@ class FreeplayCategory2State extends MusicBeatState{
 
 	var selector:FlxText;
 	private static var curSelected:Int = 0;
-	var curDifficulty:Int = -1;
+	var curDifficulty:Int = 2;
 	private static var lastDifficultyName:String = '';
 
 	var scoreBG:FlxSprite;
@@ -45,8 +45,8 @@ class FreeplayCategory2State extends MusicBeatState{
 
 	override function create()
 	{
-		addSong('Tutorial', 1, 'gf', FlxColor.RED);
-		addSong('World', 2, 'bf', FlxColor.BLUE);
+		addSong('Dilemma', 1, 'gf', FlxColor.RED);
+		addSong('Challeng-Red', 2, 'bf', FlxColor.BLUE);
 		Paths.clearStoredMemory();
 		Paths.clearUnusedMemory();
 		
@@ -328,9 +328,7 @@ class FreeplayCategory2State extends MusicBeatState{
 				#end
 			}
 		}
-		if (curSelected == 1 && accepted)
-		MusicBeatState.switchState(new dumb.WorldState());
-		else if (accepted && curSelected != 1)
+		if (accepted)
 		{
 			persistentUpdate = false;
 			var songLowercase:String = Paths.formatToSongPath(songs[curSelected].songName);
@@ -384,12 +382,7 @@ class FreeplayCategory2State extends MusicBeatState{
 
 	function changeDiff(change:Int = 0)
 	{
-		curDifficulty += change;
-
-		if (curDifficulty < 0)
-			curDifficulty = CoolUtil.difficulties.length-1;
-		if (curDifficulty >= CoolUtil.difficulties.length)
-			curDifficulty = 0;
+		curDifficulty = 2;
 
 		lastDifficultyName = CoolUtil.difficulties[curDifficulty];
 
